@@ -1,0 +1,20 @@
+version: '2'
+
+services:
+  orderer1.example.com:
+    container_name: orderer1.example.com
+    image: hyperledger/fabric-orderer:2.5
+    environment:
+      - ORDERER_GENERAL_LISTENPORT=7050
+    ports:
+      - 7050:7050
+    command: orderer
+
+  peer0.org1.example.com:
+    container_name: peer0.org1.example.com
+    image: hyperledger/fabric-peer:2.5
+    environment:
+      - CORE_PEER_LISTENPORT=7051
+    ports:
+      - 7051:7051
+    command: peer node start

@@ -1,0 +1,19 @@
+Capabilities:
+  Channel: &ChannelCapabilities
+    V2_0: true
+
+Application: &ApplicationDefaults
+  ACLs: {}
+  Organizations: {}
+  Capabilities:
+    <<: *ChannelCapabilities
+
+Profiles:
+  PoSBFTChannel:
+    Consortium: SampleConsortium
+    Application:
+      Organizations:
+        - *Org1
+        - *Org2
+      Capabilities:
+        <<: *ChannelCapabilities

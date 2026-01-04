@@ -1,0 +1,18 @@
+version: "2"
+
+services:
+  pos_selector:
+    image: python:3.10
+    container_name: pos_selector
+    volumes:
+      - ../services:/app
+    working_dir: /app
+    command: python validator_selector.py
+
+  bft_daemon:
+    image: python:3.10
+    container_name: bft_daemon
+    volumes:
+      - ../services:/app
+    working_dir: /app
+    command: python bft_daemon.py
