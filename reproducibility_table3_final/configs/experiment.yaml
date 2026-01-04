@@ -1,0 +1,22 @@
+seed: 42
+num_runs: 5
+
+edge_nodes:
+  - 10
+  - 25
+  - 50
+  - 100
+  - 200
+
+training:
+  max_epochs: 50
+  convergence_delta: 0.001
+
+statistics:
+  confidence_level: 0.95
+  z_value: 1.96
+
+output:
+  raw_results: results/scaling_results.csv
+  summary: results/metric_summary.csv
+  summary_ci: results/metric_summary_ci.csv
