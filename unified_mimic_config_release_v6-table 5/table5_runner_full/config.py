@@ -1,0 +1,21 @@
+
+NUM_CLIENTS = 10
+ROUNDS = 20
+LOCAL_EPOCHS = 2
+BATCH_SIZE = 32
+LR = 1e-3
+
+DIRICHLET_ALPHA = 0.5
+DP_EPSILON = 1.0
+DP_DELTA = 1e-5
+CLIP_NORM = 1.0
+
+MALICIOUS_RATIO = 0.3
+SEED = 42
+
+BLOCKCHAIN_LATENCY = {
+    "PoW": (8, 15),
+    "PoA": (7, 12),
+    "PoS": (6, 10),
+    "PoS_BFT": (8, 12)
+}

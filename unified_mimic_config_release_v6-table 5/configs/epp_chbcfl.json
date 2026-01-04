@@ -1,0 +1,10 @@
+{
+    "method": "EPP-CHBCFL",
+    "dataset": "MIMIC-III",
+    "dp_budget": "\u03b5 = 1.0",
+    "attack_setting": "Combined Attacks",
+    "accuracy": 98.6,
+    "communication_overhead": "Low",
+    "consensus": "PoS + BFT",
+    "attack_resilience": "Very High"
+}

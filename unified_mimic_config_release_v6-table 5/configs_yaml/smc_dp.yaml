@@ -1,0 +1,8 @@
+method: Secure MPC + DP
+dataset: MIMIC-III
+dp_budget: ε = 1.0
+attack_setting: Byzantine Clients
+accuracy: 95.2
+communication_overhead: Low
+consensus: PoS + BFT
+attack_resilience: Moderate

@@ -1,0 +1,8 @@
+method: Differential Privacy
+dataset: MIMIC-III
+dp_budget: ε = 1.0
+attack_setting: Gradient Poisoning
+accuracy: 89.6
+communication_overhead: Medium
+consensus: PoA
+attack_resilience: Low

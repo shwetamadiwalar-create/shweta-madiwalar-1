@@ -1,0 +1,8 @@
+method: Secure Multiparty Computation
+dataset: MIMIC-III
+dp_budget: No DP
+attack_setting: Byzantine Clients
+accuracy: 90.2
+communication_overhead: High
+consensus: PoW
+attack_resilience: Moderate

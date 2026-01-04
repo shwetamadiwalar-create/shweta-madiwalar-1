@@ -1,0 +1,10 @@
+{
+    "method": "Homomorphic Encryption",
+    "dataset": "MIMIC-III",
+    "dp_budget": "No DP",
+    "attack_setting": "No Attack",
+    "accuracy": 91.4,
+    "communication_overhead": "High",
+    "consensus": "PoW",
+    "attack_resilience": "Moderate"
+}
