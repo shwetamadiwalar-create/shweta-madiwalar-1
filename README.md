@@ -1,4 +1,4 @@
-# Unified MIMIC-III Reproducibility Package (v6)
+# Unified MIMIC-III 
 
 This package contains:
 - All configs (JSON + YAML)
