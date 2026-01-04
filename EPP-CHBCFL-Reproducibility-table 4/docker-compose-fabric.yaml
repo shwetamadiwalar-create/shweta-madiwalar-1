@@ -1,0 +1,52 @@
+version: "3.8"
+
+networks:
+  fabric_net:
+
+services:
+
+  orderer1.example.com:
+    image: hyperledger/fabric-orderer:2.5
+    container_name: orderer1
+    ports: ["7050:7050"]
+    networks: [fabric_net]
+
+  orderer2.example.com:
+    image: hyperledger/fabric-orderer:2.5
+    container_name: orderer2
+    ports: ["8050:8050"]
+    networks: [fabric_net]
+
+  orderer3.example.com:
+    image: hyperledger/fabric-orderer:2.5
+    container_name: orderer3
+    ports: ["9050:9050"]
+    networks: [fabric_net]
+
+  peer0.org1.example.com:
+    image: hyperledger/fabric-peer:2.5
+    container_name: peer0_org1
+    ports: ["7051:7051"]
+    networks: [fabric_net]
+
+  peer1.org1.example.com:
+    image: hyperledger/fabric-peer:2.5
+    container_name: peer1_org1
+    networks: [fabric_net]
+
+  peer2.org1.example.com:
+    image: hyperledger/fabric-peer:2.5
+    container_name: peer2_org1
+    networks: [fabric_net]
+
+  peer0.org2.example.com:
+    image: hyperledger/fabric-peer:2.5
+    container_name: peer0_org2
+    ports: ["8051:7051"]
+    networks: [fabric_net]
+
+  peer1.org2.example.com:
+    image: hyperledger/fabric-peer:2.5
+    container_name: peer1_org2
+    networks: [fabric_net]
+

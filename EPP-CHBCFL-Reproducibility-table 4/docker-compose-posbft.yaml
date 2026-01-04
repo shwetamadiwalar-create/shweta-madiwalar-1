@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  validator1:
+    image: python:3.10
+    command: python validator_daemon.py
+  validator2:
+    image: python:3.10
+    command: python validator_daemon.py
+  validator3:
+    image: python:3.10
+    command: python validator_daemon.py
+  validator4:
+    image: python:3.10
+    command: python validator_daemon.py
+  validator5:
+    image: python:3.10
+    command: python validator_daemon.py
+
