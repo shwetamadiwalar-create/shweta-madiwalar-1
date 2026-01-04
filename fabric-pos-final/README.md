@@ -1,4 +1,4 @@
-# Hybrid PoS+BFT + Hyperledger Fabric (Complete Reproducibility Package)
+# Hybrid PoS+BFT + Hyperledger Fabric (refrence Package)
 
 This repository contains the complete reproducible implementation including:
 - Full Fabric network config
