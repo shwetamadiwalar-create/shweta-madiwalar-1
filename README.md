@@ -7,3 +7,4 @@ This package contains:
 - Full MIMIC-III loader template
 - Preprocessing, attack, blockchain documentation
 - LaTeX tables
+  TO access the supplimentary files click on raw data icon 
