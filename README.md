@@ -6,4 +6,4 @@ This package contains:
 - Real experiment runner
 - Full MIMIC-III loader template
 - Preprocessing, attack, blockchain documentation
--  TO access the supplimentary files click on raw data icon 
+-  To access the supplimentary files click on raw data icon 
